@@ -4,6 +4,10 @@ Ichi Chatbot
 ```
 virtualenv --python C:\Users\tanuj\AppData\Local\Programs\Python\Python310\python.exe venv
 ```
+### activate the virtual env
+```
+.\venv\Scripts\activate
+```
 
 ### Installing packages
 ``` 
@@ -28,5 +32,4 @@ pip install torchvision
 ```
 pip install torchvision 
 ```
-### training the model
-<h3 align="center"><img src="https://raw.githubusercontent.com/tanujdargan/chatbot-ichi/main/assets/terminal-training.png?token=GHSAT0AAAAAABSBHTQMCXZFEHQDRXS5SGP6YWHJLCA" width="800px"></h3>
+<h3 align="center"><img src="https://raw.githubusercontent.com/tanujdargan/chatbot-ichi/main/assets/terminal-training.png?token=GHSAT0AAAAAABSBHTQMOZYM2K44TSN6RS2KYWHONVQ" width="800px"></h3>
