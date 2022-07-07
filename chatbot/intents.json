@@ -1,0 +1,163 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, welcome to Ichi Restaurants. How may I help you?",
+        "Hello, thank you for visiting our site. How may I be of assistance to you?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "wheelchair",
+      "patterns": [
+        "Do you have wheelchair access?",
+        "Do you have a wheelchair?",
+        "Can I bring a wheelchair?"
+      ],
+      "responses": [
+        "Yes we have a wheelchair available and all our staircases have ramps as well"
+      ]
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "Do you have free wifi?",
+        "Do you offer wifi?"
+      ],
+      "responses": [
+        "Yes we offer free wifi to all our customers"
+      ]
+    },
+    {
+      "tag": "parking",
+      "patterns": [
+        "Do you have valet parking",
+        "Do you have parking",
+        "Can I park my car at your restaurant",
+        "Can I bring my car"
+      ],
+      "responses": [
+        "We do offer parking and valet services."
+      ]
+    },
+    {
+      "tag": "lift",
+      "patterns": [
+        "Is there a lift?",
+        "Do you have lifts?",
+        "Are there elevators?"
+      ],
+      "responses": [
+        "Yes we have elevators accessible to our customers."
+      ]
+    },
+    {
+      "tag": "ac",
+      "patterns": [
+        "Do you have air conditioning",
+        "Is your restaurant air conditioned?",
+        "Do you have AC's"
+      ],
+      "responses": [
+        "Our restaurant has centralised climate control"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "Where is your restaurant"
+      ],
+      "responses": [
+        "You can find us at 48-37 Aza, Kabayama, Sapparo",
+        "Our restaurant is at 48-37 Aza, Kabayama, Sapparo"
+      ]
+    },
+    {
+      "tag": "timing",
+      "patterns": [
+        "What time are you open?",
+        "When do you open?",
+        "When can I come in today?"
+      ],
+      "responses": [
+        "We are open from 11 AM to 11PM on weekdays and 11AM to Midnight on Weekends",
+        "We are open everyday from 11AM to 11PM, Weekends we are open till Midnight"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "We hope to see you at one of our restaurants"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "We are currently working on partnering with a delivery service",
+        "We do not do delivery's as of now"
+      ]
+    },
+    {
+      "tag": "cuisine",
+      "patterns": [
+        "What cuisines do you serve?",
+        "What type of food do you serve?",
+        "What cuisines do you offer?"
+      ],
+      "responses": [
+        "We serve Japanese, Mexican, French, Korean, Indian and Fast Food",
+        "We have Japanese, Mexican, French, Korean, Indian and Fast Food"
+      ]
+    }
+  ]
+}
