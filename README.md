@@ -1,6 +1,5 @@
 # chatbot-ichi
-Ichi Chatbot 
-### Creating the virtual environment
+Ichi Chatbot ### Creating the virtual environment
 ```
 virtualenv --python C:\Users\tanuj\AppData\Local\Programs\Python\Python310\python.exe venv
 ```
@@ -8,7 +7,6 @@ virtualenv --python C:\Users\tanuj\AppData\Local\Programs\Python\Python310\pytho
 ```
 .\venv\Scripts\activate
 ```
-
 ### Installing packages
 ``` 
 pip install Flask torch torchvision nltk
@@ -30,6 +28,12 @@ pip install torchvision
 ```
 ### to chat with the bot in terminal run
 ```
-pip install torchvision 
+python chat.py
 ```
+### Finally to use the bot with it's interface
+```
+Command 1: .\venv\Scripts\activate
+Command 2: "c:/Users/tanuj/Desktop/Internship stuff/chatbot/venv/Scripts/python.exe" "c:/Users/tanuj/Desktop/Internship stuff/chatbot/app.py"
+```
+
 <h3 align="center"><img src="https://raw.githubusercontent.com/tanujdargan/chatbot-ichi/main/assets/terminal-training.png?token=GHSAT0AAAAAABSBHTQMOZYM2K44TSN6RS2KYWHONVQ" width="800px"></h3>
