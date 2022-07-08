@@ -43,8 +43,7 @@
       "patterns": [
         "Do you have valet parking",
         "Do you have parking",
-        "Can I park my car at your restaurant",
-        "Can I bring my car"
+        "Can I park my car at your restaurant"
       ],
       "responses": [
         "We do offer parking and valet services."
@@ -76,7 +75,8 @@
       "tag": "location",
       "patterns": [
         "Where are you located?",
-        "Where is your restaurant"
+        "Where is your restaurant",
+        "What is your location?"
       ],
       "responses": [
         "You can find us at 48-37 Aza, Kabayama, Sapparo",
@@ -145,6 +145,282 @@
       "responses": [
         "We are currently working on partnering with a delivery service",
         "We do not do delivery's as of now"
+      ]
+    },
+    {
+      "tag": "allergy",
+      "patterns": [
+        "I have allergies",
+        "I'm allergic"
+      ],
+      "responses": [
+        "On request, we can have our chef make food for you"
+      ]
+    },
+    {
+      "tag": "veg/non-veg",
+      "patterns": [
+        "Do you serve vegetarian food?",
+        "Do you server non-vegetarian food?"
+      ],
+      "responses": [
+        "We serve both Vegetarian and Non-Vegetarian Food."
+      ]
+    },
+    {
+      "tag": "speciality",
+      "patterns": [
+        "What do you recommened?",
+        "What's your speciality?"
+      ],
+      "responses": [
+        "Our speciality is Sushi.",
+        "We specialise in Japanese food, specifically Sushi."
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "Do you have a menu?",
+        "Can I see your menu?",
+        "What are the pricings?"
+      ],
+      "responses": [
+        "https://bit.ly/3uASb9f"
+      ]
+    },
+    {
+      "tag": "reservations",
+      "patterns": [
+        "Can I book a table",
+        "Can I prebook a table",
+        "Can I make reservations",
+        "Can I make a reservation",
+        "How do I book a table"
+      ],
+      "responses": [
+        "You can make reservations at https://pocket-concierge.jp/en/",
+        "To make reservations visit https://pocket-concierge.jp/en/"
+      ]
+    },
+    {
+      "tag": "handicap parking",
+      "patterns": [
+        "Do you handicap parking",
+        "Do you have handicap parking spots?"
+      ],
+      "responses": [
+        "We have handicap parking spaces available",
+        "We do have handicap parking spaces"
+      ]
+    },
+    {
+      "tag": "baby chairs",
+      "patterns": [
+        "Do you have baby chairs?",
+        "Can I bring my baby along?"
+      ],
+      "responses": [
+        "We have seating facilities for children and babies",
+        "We do have baby chairs"
+      ]
+    },
+    {
+      "tag": "takeaway",
+      "patterns": [
+        "Can I get food packed?",
+        "Can I take the food I don't finish?",
+        "Do you offer takeaway?"
+      ],
+      "responses": [
+        "We offer takeaway services"
+      ]
+    },
+    {
+      "tag": "allergies", 
+      "patterns": [
+        "I am allergic",
+        "I'm allergic",
+        "I have allergies"
+      ],
+      "responses": [
+        "We request you to inform the restaurant, the chef will take care of your needs",
+        "Our chef will take care of your needs however, you are requested to inform the restaurant"
+      ]
+    },
+    {
+      "tag": "ratings",
+      "patterns": [
+        "What is the restaurants rating?",
+        "What ratings does your restaurant have?"
+      ],
+      "responses": [
+        "We are rated 4.5☆ on tablelog"
+      ]
+    },
+    {
+      "tag": "michelin stars",
+      "patterns": [
+        "Does the restaurant have any Michelin Stars"
+      ],
+      "responses": [
+        "As of now we do not have any Michelin Stars but we hope to have them in the future"
+      ]
+    },
+    {
+      "tag": "drinks",
+      "patterns": [
+        "Do you serve alcoholic drinks?",
+        "Does your restaurant have alcohol?",
+        "Do you allow alcohol?",
+        "What kind of drinks are available?"
+      ],
+      "responses": [
+        "We offer both alcoholic and non-alcoholic drinks courtesy of our in-house bar",
+        "Our in-house bar offers alcoholic and non-alcoholic drinks"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "Do you have any age restrictions?",
+        "Are people under 18 allowed?",
+        "Can I bring my kid",
+        "Can I bring my child",
+        "Are children allowed"
+      ],
+      "responses": [
+        "We do not have any age restrictions however, we do not serve alcohol to under age customers",
+        "All customers are welcome to our restaurant however, alcohol will only be served to adults"
+      ]
+    },
+    {
+      "tag": "outside food",
+      "patterns": [
+        "Can I bring outside food?"
+      ],
+      "responses": [
+        "Outside food is permitted but we recommend trying our restaurants food"
+      ]
+    },
+    {
+      "tag": "events/parties",
+      "patterns": [
+        "Can I throw a party?",
+        "Do you allow organising events",
+        "Do you allow parties?",
+        "Are large gatherings possible?"
+      ],
+      "responses": [
+        "Events or Parties must be booked in advance in coordination with the restaurant through https://pocket-concierge.jp/en/ "
+      ]
+    },
+    {
+      "tag": "dress code",
+      "patterns": [
+        "Do you have a dress code?",
+        "Do I have to dress a certain way?",
+        "Is there any restriction to clothing?"
+      ],
+      "responses": [
+        "Our dress code is Smart Casuals"
+      ]
+    },
+    {
+      "tag": "pets",
+      "patterns": [
+        "Can I bring my pet along?",
+        "Are animals allowed?"
+      ],
+      "responses": [
+        "Pets/Animals are allowed"
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "Is there music?",
+        "Do you have live music?"
+      ],
+      "responses": [
+        "We have a live band playing every day"
+      ]
+    },
+    {
+      "tag": "seating capacity",
+      "patterns": [
+        "How many people can fit on one table?",
+        "How many people per table?"
+      ],
+      "responses": [
+        "Per table we can seat 4 people but tables can be combined to accommodate more people"
+      ]
+    },
+    {
+      "tag": "smoking",
+      "patterns": [
+        "Is smoking permitted?",
+        "Can I smoke?"
+      ],
+      "responses": [
+        "As per government regulation we do not permit smoking inside the premises"
+      ]
+    },
+    {
+      "tag": "washroom",
+      "patterns": [
+        "Are there washrooms?",
+        "Are there handicap friendly washrooms?"
+      ],
+      "responses": [
+        "We have 4 seperate washrooms for Gender Neutral, Handicap, Men and Women"
+      ]
+    },
+    {
+      "tag": "cutlery",
+      "patterns": [
+        "Do I have to eat with chopsticks?",
+        "Do you have spoons and forks?",
+        "Do you offer culery?"
+      ],
+      "responses": [
+        "Our customers can choose to use cutlery or chopsticks"
+      ]
+    },
+    {
+      "tag": "water",
+      "patterns": [
+        "Do I have to pay extra for water?",
+        "Is water free?",
+        "Is water paid?"
+      ],
+      "responses": [
+        "Water is served free of charge"
+      ]
+    },
+    {
+      "tag": "buffet",
+      "patterns": [
+        "Do you have buffets?",
+        "What are your buffet timings?",
+        "Is there a buffet?"
+      ],
+      "responses": [
+        "Our buffet runs twice a day from 12 to 1:30pm and 7:30 to 9:30pm"
+      ]
+    },
+    {
+      "tag": "per person cost",
+      "patterns": [
+        "How much does it cost for 2 people",
+        "What is the per person cost?",
+        "How much should I carry?",
+        "What is the cost of one person?",
+        "What is the cost for 3 people?",
+        "What is the cost for 4 people?"
+      ],
+      "responses": [
+        "You can find our prices in the menu https://bit.ly/3uASb9f "
       ]
     },
     {
