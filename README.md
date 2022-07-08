@@ -36,4 +36,4 @@ Command 1: .\venv\Scripts\activate
 Command 2: "c:/Users/tanuj/Desktop/Internship stuff/chatbot/venv/Scripts/python.exe" "c:/Users/tanuj/Desktop/Internship stuff/chatbot/app.py"
 ```
 
-<h3 align="center"><img src="https://raw.githubusercontent.com/tanujdargan/chatbot-ichi/main/assets/terminal-training.png?token=GHSAT0AAAAAABSBHTQMOZYM2K44TSN6RS2KYWHONVQ" width="800px"></h3>
+<h3 align="center"><img src="https://raw.githubusercontent.com/tanujdargan/chatbot-ichi/main/assets/terminal-training.png?token=GHSAT0AAAAAABSBHTQNLIASVXQZF72JGE6OYWIA5QQ" width="800px"></h3>
