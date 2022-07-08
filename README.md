@@ -17,23 +17,24 @@ python
 import nltk
 nltk.download('punkt')
 ```
-### to change the questions and their responses edit the intents.json file
-### to train the model run
+### To change the questions and their responses edit the intents.json file
+### To train the model run
 ```
 python train.py
 ```
-### if you get torch module not found error then in your terminal execute
+### If you get torch module not found error then in your terminal execute
 ```
 pip install torchvision 
 ```
-### to chat with the bot in terminal run
+### To chat with the bot in terminal run
 ```
 python chat.py
 ```
 ### Finally to use the bot with it's interface
 ```
-Command 1: .\venv\Scripts\activate
-Command 2: "c:/Users/tanuj/Desktop/Internship stuff/chatbot/venv/Scripts/python.exe" "c:/Users/tanuj/Desktop/Internship stuff/chatbot/app.py"
+Command 1: cd C:/Users/tanuj/Desktop/Internship stuff/chatbot
+Command 2: .\venv\Scripts\activate
+Command 3: "c:/Users/tanuj/Desktop/Internship stuff/chatbot/venv/Scripts/python.exe" "c:/Users/tanuj/Desktop/Internship stuff/chatbot/app.py"
 ```
 
 <h3 align="center"><img src="https://raw.githubusercontent.com/tanujdargan/chatbot-ichi/main/assets/terminal-training.png?token=GHSAT0AAAAAABSBHTQNLIASVXQZF72JGE6OYWIA5QQ" width="800px"></h3>
